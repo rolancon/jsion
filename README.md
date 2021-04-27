@@ -6,6 +6,7 @@ Since Io's String type (called Sequence) lacks support for escaped Unicode chara
 
 To use it just run the `jsion.io` file in the Io console:
 `Io> doFile("jsion.io")`
+This will automatiicaly import the Unicode codepoint to UTF-8 character mapping JSON file (which is generated with a Python script).
 
 However, the result leaves a lot to desired, and can only be considered an expirement, to note:
 * The String type (Sequence) only supports Unicode escapes when they are embedded in an Object (Map) or an Array (List).
